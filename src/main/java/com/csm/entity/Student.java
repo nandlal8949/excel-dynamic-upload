@@ -18,7 +18,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class Student {
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer stId;
 	private String stName;
 	private String mobNo;
